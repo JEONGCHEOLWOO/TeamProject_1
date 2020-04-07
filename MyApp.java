@@ -2,32 +2,10 @@
 /**
  * Write a description of class MyApp here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @2018315034 정철우, 2018315038 이혜인
+ * @20200407
  */
 public class MyApp
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class MyApp
-     */
-    public MyApp()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
 }
