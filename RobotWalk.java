@@ -19,9 +19,7 @@ public class RobotWalk
         }
     }    
     public static void main(String[] args){
-        
-        System.out.print("Traffic_Light: ");
-        
+         new RobotWalk();
        
     }
 }
