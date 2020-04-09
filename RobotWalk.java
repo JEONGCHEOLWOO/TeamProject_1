@@ -7,19 +7,21 @@
  */
 public class RobotWalk
 {
-    public String TL; //Traffic Light
-    double sp = 5;
+    String TL; //Traffic Light
+    double sp = 5; //Speed
+
     public void RobotWalk(String TL, double sp){
-        this.TL = TL;
-        this.sp = sp;
-       
         if(TL == "green"){
+        }
+        else if(TL == "yellow"){
+            sp = sp * 1.2;
+        }
+        else{
             sp = 0;
-            System.out.print(sp);
         }
     }    
+
     public static void main(String[] args){
-         new RobotWalk();
-       
+        new RobotWalk();
     }
 }
