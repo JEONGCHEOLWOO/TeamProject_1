@@ -10,7 +10,7 @@ public class RobotWalk
     String TL; //Traffic Light
     double sp = 5; //Speed
 
-    public void RobotWalk(String TL, double sp){
+    public RobotWalk(String TL, double sp){
         if(TL == "green"){
         }
         else if(TL == "yellow"){
@@ -19,9 +19,10 @@ public class RobotWalk
         else{
             sp = 0;
         }
+        System.out.print("속도: " + sp);
     }    
 
     public static void main(String[] args){
-        new RobotWalk();
+        new RobotWalk("yellow", 5.0);
     }
 }
