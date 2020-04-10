@@ -10,7 +10,13 @@ public class Robot
     String TL; //Traffic Light
     double sp = 5; //Speed
 
-    public RobotWalk(String TL, double sp){
+    public Robot(String TL, double sp){
+        this.TL = TL; //Traffic Light
+        this.sp = sp; //Speed
+        RobotWalk();
+    }
+    
+    public void RobotWalk(){
         if(TL == "green"){
         }
         else if(TL == "yellow"){
@@ -19,6 +25,6 @@ public class Robot
         else{
             sp = 0;
         }
-        System.out.print("속도: " + sp);
+        System.out.println("속도: " + sp + "km/h");
     }    
 }
