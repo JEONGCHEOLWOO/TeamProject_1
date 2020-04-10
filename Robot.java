@@ -11,8 +11,8 @@ public class Robot
     double sp = 5; //Speed
 
     public Robot(String TL, double sp){
-        this.TL = TL; //Traffic Light
-        this.sp = sp; //Speed
+        this.TL = TL; 
+        this.sp = sp;
         RobotWalk();
     }
     
@@ -25,6 +25,6 @@ public class Robot
         else{
             sp = 0;
         }
-        System.out.println("속도: " + sp + "km/h");
+        System.out.println("속도: " + (int)sp + "km/h");
     }    
 }
